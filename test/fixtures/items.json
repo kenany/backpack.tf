@@ -1,0 +1,25 @@
+{
+    "response": {
+        "success": 1,
+        "items": [
+            {
+                "name": "Random Craft Hat",
+                "item_name": "Random Craft Hat",
+                "defindex": -1,
+                "item_class": "tf_wearable",
+                "item_type_name": "Currency Item",
+                "item_description": "Any random hat that is valued as 1 random hat in the price list.",
+                "proper_name": false,
+                "item_quality": 0,
+                "min_ilevel": 1,
+                "max_ilevel": 1,
+                "image_url": "http:\/\/media.steampowered.com\/apps\/440\/icons\/kit_fancyhats.bf5ba4ea973728df20402c0c9a4737f18d5d560c.png",
+                "image_url_large": "http:\/\/media.steampowered.com\/apps\/440\/icons\/kit_fancyhats_large.800ea1b16df707ffa27f9f6e6033e8ba3f0f5333.png",
+                "image_url_orig": "http:\/\/media.steampowered.com\/apps\/440\/icons\/kit_fancyhats.bf5ba4ea973728df20402c0c9a4737f18d5d560c.png",
+                "image_url_large_orig": "http:\/\/media.steampowered.com\/apps\/440\/icons\/kit_fancyhats.bf5ba4ea973728df20402c0c9a4737f18d5d560c.png",
+                "appid": 440
+            }
+        ],
+        "current_time": 1403708181
+    }
+}

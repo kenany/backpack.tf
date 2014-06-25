@@ -1,0 +1,22 @@
+{
+    "response": {
+        "success": 1,
+        "current_time": 1403708347,
+        "players": {
+            "76561198012598620": {
+                "steamid": "76561198012598620",
+                "success": 1,
+                "backpack_value": {
+                    "440": 159.1
+                },
+                "backpack_update": {
+                    "440": 1403707942
+                },
+                "name": "Fiskie",
+                "backpack_tf_reputation": 15,
+                "backpack_tf_group": true,
+                "notifications": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "backpack.tf",
+  "version": "0.0.0",
+  "description": "backpack.tf API wrapper",
+  "keywords": [
+    "backpack.tf",
+    "steam",
+    "team fortress 2"
+  ],
+  "repository": "KenanY/backpack.tf",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "dependencies": {
+    "jsonist": "^0.1.1",
+    "lodash.isarray": "^2.4.1",
+    "lodash.isstring": "^2.4.1"
+  },
+  "devDependencies": {
+    "lodash.isfunction": "^2.4.1",
+    "lodash.isplainobject": "^2.4.1",
+    "nock": "^0.31.3",
+    "tape": "^2.13.2"
+  }
+}

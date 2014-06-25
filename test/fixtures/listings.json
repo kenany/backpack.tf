@@ -1,0 +1,3229 @@
+{
+    "response": {
+        "success": 1,
+        "listings": [
+            {
+                "item": {
+                    "id": 2709583230,
+                    "original_id": 512003241,
+                    "defindex": 96,
+                    "level": 54,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "custom_name": "Enemies of the Imperium, hear me.",
+                    "custom_desc": "You have come here to die. The Immortal Emperor is with me and I am invincible.",
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1107558400,
+                            "float_value": 33
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 500,
+                            "value": "Enemies of the Imperium, hear me."
+                        },
+                        {
+                            "defindex": 501,
+                            "value": "You have come here to die. The Immortal Emperor is with me and I am invincible."
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 21
+                },
+                "buyout": 1,
+                "details": "21 keys ",
+                "meta": {
+                    "class": "heavy",
+                    "slot": "misc",
+                    "particle": 33,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403562433
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 17
+                },
+                "details": "17 keys ",
+                "item": {
+                    "id": 2607115116,
+                    "original_id": 617517041,
+                    "defindex": 660,
+                    "level": 1,
+                    "quality": 11,
+                    "inventory": 2147485135,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 189,
+                            "value": 1093664768,
+                            "float_value": 11
+                        },
+                        {
+                            "defindex": 214,
+                            "value": 0,
+                            "float_value": 0
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "scout",
+                    "slot": "melee",
+                    "craft_class": "",
+                    "craft_material_type": "weapon"
+                },
+                "created": 1402239499
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 14
+                },
+                "details": "14 keys ( Black ) ",
+                "item": {
+                    "id": 2676159630,
+                    "original_id": 180770458,
+                    "defindex": 246,
+                    "level": 13,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1093664768,
+                            "float_value": 11
+                        },
+                        {
+                            "defindex": 142,
+                            "value": 1235263648,
+                            "float_value": 1315860
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1235263648,
+                            "float_value": 1315860
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "heavy",
+                    "slot": "misc",
+                    "particle": 11,
+                    "paint": 1315860,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1402759136
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 64
+                },
+                "details": "64 keys \/ 3buds + 10 keys ",
+                "item": {
+                    "id": 2501047914,
+                    "original_id": 1215399675,
+                    "defindex": 306,
+                    "level": 86,
+                    "quality": 5,
+                    "inventory": 2147485464,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1109131264,
+                            "float_value": 39
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "demoman",
+                    "slot": "misc",
+                    "particle": 39,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1399740439
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 29
+                },
+                "details": "29 keys ",
+                "item": {
+                    "id": 2661782826,
+                    "original_id": 468034247,
+                    "defindex": 323,
+                    "level": 59,
+                    "quality": 5,
+                    "inventory": 2147485447,
+                    "quantity": 1,
+                    "origin": 3,
+                    "equipped": [
+                        {
+                            "class": 5,
+                            "slot": 7
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1098907648,
+                            "float_value": 16
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 519,
+                            "value": 1090519040,
+                            "float_value": 8
+                        },
+                        {
+                            "defindex": 520,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "medic",
+                    "slot": "misc",
+                    "particle": 16,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1402335672
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 15
+                },
+                "details": "15 keys ",
+                "item": {
+                    "id": 2665254285,
+                    "original_id": 1482740716,
+                    "defindex": 185,
+                    "level": 97,
+                    "quality": 5,
+                    "inventory": 2147485476,
+                    "quantity": 1,
+                    "origin": 8,
+                    "custom_name": "Chrome-Dome's Cover-up",
+                    "custom_desc": "Why be proud of your baldness when you can hide it away under a sweet bandana?",
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1108082688,
+                            "float_value": 35
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 520,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 500,
+                            "value": "Chrome-Dome's Cover-up"
+                        },
+                        {
+                            "defindex": 501,
+                            "value": "Why be proud of your baldness when you can hide it away under a sweet bandana?"
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "heavy",
+                    "slot": "misc",
+                    "particle": 35,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1402678785
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 250
+                },
+                "details": "250 keys \/ 13 buds + 10 keys ",
+                "item": {
+                    "id": 2413217216,
+                    "original_id": 1230352478,
+                    "defindex": 921,
+                    "level": 44,
+                    "quality": 5,
+                    "inventory": 2147485371,
+                    "quantity": 1,
+                    "origin": 8,
+                    "equipped": [
+                        {
+                            "class": 8,
+                            "slot": 7
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1109393408,
+                            "float_value": 40
+                        },
+                        {
+                            "defindex": 142,
+                            "value": 1265034982,
+                            "float_value": 15132390
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1265034982,
+                            "float_value": 15132390
+                        },
+                        {
+                            "defindex": 519,
+                            "value": 1084982558,
+                            "float_value": 5.3599996566772
+                        },
+                        {
+                            "defindex": 520,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 1004,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 1005,
+                            "value": 1252159636,
+                            "float_value": 5322826
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "multi",
+                    "slot": "misc",
+                    "particle": 40,
+                    "paint": 15132390,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1399735787
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 58
+                },
+                "details": "58 keys \/ 3 buds + 4 keys ",
+                "item": {
+                    "id": 2570839810,
+                    "original_id": 2490858622,
+                    "defindex": 701,
+                    "level": 59,
+                    "quality": 5,
+                    "inventory": 2147485450,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1114374144,
+                            "float_value": 59
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "soldier",
+                    "slot": "misc",
+                    "particle": 59,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1399738099
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 80
+                },
+                "details": "4 buds + 8 keys ",
+                "item": {
+                    "id": 2471195905,
+                    "original_id": 2469082434,
+                    "defindex": 259,
+                    "level": 52,
+                    "quality": 5,
+                    "inventory": 2147485453,
+                    "quantity": 1,
+                    "origin": 8,
+                    "equipped": [
+                        {
+                            "class": 4,
+                            "slot": 7
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1096810496,
+                            "float_value": 14
+                        },
+                        {
+                            "defindex": 142,
+                            "value": 1265034982,
+                            "float_value": 15132390
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1265034982,
+                            "float_value": 15132390
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "demoman",
+                    "slot": "misc",
+                    "particle": 14,
+                    "paint": 15132390,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1399738505
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 115
+                },
+                "details": "6 buds ",
+                "item": {
+                    "id": 2487517756,
+                    "original_id": 1673854100,
+                    "defindex": 445,
+                    "level": 86,
+                    "quality": 5,
+                    "inventory": 2147485437,
+                    "quantity": 1,
+                    "origin": 8,
+                    "equipped": [
+                        {
+                            "class": 3,
+                            "slot": 7
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "soldier",
+                    "slot": "misc",
+                    "particle": 64,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1399738020
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 31
+                },
+                "details": "31 keys ",
+                "item": {
+                    "id": 2473196656,
+                    "original_id": 1670470479,
+                    "defindex": 517,
+                    "level": 10,
+                    "quality": 5,
+                    "inventory": 2147485445,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1115815936,
+                            "float_value": 65
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "heavy",
+                    "slot": "misc",
+                    "particle": 65,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1402678841
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 30
+                },
+                "details": "30 keys ",
+                "item": {
+                    "id": 2566375543,
+                    "original_id": 2257593799,
+                    "defindex": 613,
+                    "level": 10,
+                    "quality": 5,
+                    "inventory": 2147485457,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1115160576,
+                            "float_value": 62
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "heavy",
+                    "slot": "misc",
+                    "particle": 62,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1402493392
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 80
+                },
+                "details": "4 buds + 8 keys ",
+                "item": {
+                    "id": 2467078318,
+                    "original_id": 2359486715,
+                    "defindex": 30346,
+                    "level": 78,
+                    "quality": 5,
+                    "inventory": 2147485448,
+                    "quantity": 1,
+                    "origin": 8,
+                    "custom_name": "Hoberic Zeus",
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1113587712,
+                            "float_value": 56
+                        },
+                        {
+                            "defindex": 519,
+                            "value": 1090519040,
+                            "float_value": 8
+                        },
+                        {
+                            "defindex": 520,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 500,
+                            "value": "Hoberic Zeus"
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "heavy",
+                    "slot": "misc",
+                    "particle": 56,
+                    "craft_class": "",
+                    "craft_material_type": "hat"
+                },
+                "created": 1399742375
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 74
+                },
+                "details": "74 keys \/ 4 buds + 2 keys ",
+                "item": {
+                    "id": 2470017308,
+                    "original_id": 1805313935,
+                    "defindex": 628,
+                    "level": 10,
+                    "quality": 5,
+                    "inventory": 2147485498,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1113587712,
+                            "float_value": 56
+                        },
+                        {
+                            "defindex": 142,
+                            "value": 1265087803,
+                            "float_value": 15185211
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1265087803,
+                            "float_value": 15185211
+                        },
+                        {
+                            "defindex": 519,
+                            "value": 1066527621,
+                            "float_value": 1.1399999856949
+                        },
+                        {
+                            "defindex": 520,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "engineer",
+                    "slot": "misc",
+                    "particle": 56,
+                    "paint": 15185211,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1399742638
+            },
+            {
+                "item": {
+                    "id": 2714148119,
+                    "original_id": 2638335140,
+                    "defindex": 391,
+                    "level": 100,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1106771968,
+                            "float_value": 31
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 14
+                },
+                "buyout": 1,
+                "details": "14 keys ",
+                "meta": {
+                    "class": "soldier",
+                    "slot": "misc",
+                    "particle": 31,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403695516
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 20
+                },
+                "details": "20 keys \/ 1 bud + 2keys ",
+                "item": {
+                    "id": 2589420207,
+                    "original_id": 883497421,
+                    "defindex": 185,
+                    "level": 69,
+                    "quality": 5,
+                    "inventory": 2147485517,
+                    "quantity": 1,
+                    "origin": 8,
+                    "custom_name": "Rainy Day Dude",
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1105723392,
+                            "float_value": 29
+                        },
+                        {
+                            "defindex": 142,
+                            "value": 1235263648,
+                            "float_value": 1315860
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1235263648,
+                            "float_value": 1315860
+                        },
+                        {
+                            "defindex": 500,
+                            "value": "Rainy Day Dude"
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "heavy",
+                    "slot": "misc",
+                    "particle": 29,
+                    "paint": 1315860,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1399911858
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "metal": 4,
+                    "keys": 4
+                },
+                "details": "4 keys + 4 ref ",
+                "item": {
+                    "id": 2610836564,
+                    "original_id": 1352032693,
+                    "defindex": 1000,
+                    "level": 10,
+                    "quality": 11,
+                    "inventory": 2147485198,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 189,
+                            "value": 1093664768,
+                            "float_value": 11
+                        },
+                        {
+                            "defindex": 214,
+                            "value": 0,
+                            "float_value": 0
+                        },
+                        {
+                            "defindex": 20,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 21,
+                            "value": 1056964608,
+                            "float_value": 0.5
+                        },
+                        {
+                            "defindex": 22,
+                            "value": 1065353216,
+                            "float_value": 1
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "pyro",
+                    "slot": "melee",
+                    "craft_class": "",
+                    "craft_material_type": "weapon"
+                },
+                "created": 1402239418
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 16
+                },
+                "details": "16 keys ",
+                "item": {
+                    "id": 2665502875,
+                    "original_id": 164818069,
+                    "defindex": 246,
+                    "level": 14,
+                    "quality": 5,
+                    "inventory": 2147485458,
+                    "quantity": 1,
+                    "origin": 3,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1099956224,
+                            "float_value": 18
+                        },
+                        {
+                            "defindex": 142,
+                            "value": 1265087803,
+                            "float_value": 15185211
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1265087803,
+                            "float_value": 15185211
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "heavy",
+                    "slot": "misc",
+                    "particle": 18,
+                    "paint": 15185211,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1402493342
+            },
+            {
+                "item": {
+                    "id": 2713240982,
+                    "original_id": 719998557,
+                    "defindex": 341,
+                    "level": 14,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1107820544,
+                            "float_value": 34
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 30
+                },
+                "buyout": 1,
+                "details": "30 keys ( All Class ) ",
+                "meta": {
+                    "class": "multi",
+                    "slot": "misc",
+                    "particle": 34,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403658619
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 29
+                },
+                "details": "29 keys ",
+                "item": {
+                    "id": 2661927060,
+                    "original_id": 1567619912,
+                    "defindex": 652,
+                    "level": 9,
+                    "quality": 5,
+                    "inventory": 2147485331,
+                    "quantity": 1,
+                    "origin": 8,
+                    "equipped": [
+                        {
+                            "class": 1,
+                            "slot": 7
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1093664768,
+                            "float_value": 11
+                        },
+                        {
+                            "defindex": 519,
+                            "value": 1089785036,
+                            "float_value": 7.6499996185303
+                        },
+                        {
+                            "defindex": 520,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "scout",
+                    "slot": "misc",
+                    "particle": 11,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1402335650
+            },
+            {
+                "item": {
+                    "id": 2695308674,
+                    "original_id": 43221494,
+                    "defindex": 126,
+                    "level": 10,
+                    "quality": 6,
+                    "inventory": 2147485189,
+                    "quantity": 1,
+                    "origin": 0,
+                    "attributes": [
+                        {
+                            "defindex": 142,
+                            "value": 1235263648,
+                            "float_value": 1315860
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1235263648,
+                            "float_value": 1315860
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 195,
+                            "value": 1065353216,
+                            "float_value": 1
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 7
+                },
+                "buyout": 1,
+                "details": "Black ",
+                "meta": {
+                    "class": "multi",
+                    "slot": "misc",
+                    "paint": 1315860,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403521269
+            },
+            {
+                "item": {
+                    "id": 2615065982,
+                    "original_id": 2609679564,
+                    "defindex": 486,
+                    "level": 10,
+                    "quality": 6,
+                    "inventory": 2147484803,
+                    "quantity": 1,
+                    "origin": 11,
+                    "attributes": [
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ],
+                    "flag_cannot_trade": true
+                },
+                "currencies": {
+                    "keys": 5
+                },
+                "buyout": 1,
+                "details": "Already Wrapped ! ",
+                "meta": {
+                    "class": "multi",
+                    "gift_wrapped": true
+                },
+                "bump": 1403709330,
+                "created": 1403604463
+            },
+            {
+                "item": {
+                    "id": 2705449738,
+                    "original_id": 851930214,
+                    "defindex": 437,
+                    "level": 22,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "custom_name": "Bubble Brain",
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1107820544,
+                            "float_value": 34
+                        },
+                        {
+                            "defindex": 142,
+                            "value": 1257930978,
+                            "float_value": 8208497
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1257930978,
+                            "float_value": 8208497
+                        },
+                        {
+                            "defindex": 519,
+                            "value": 1078900818,
+                            "float_value": 3.2300000190735
+                        },
+                        {
+                            "defindex": 520,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 500,
+                            "value": "Bubble Brain"
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 13
+                },
+                "buyout": 1,
+                "details": "13 keys ",
+                "meta": {
+                    "class": "spy",
+                    "slot": "misc",
+                    "particle": 34,
+                    "paint": 8208497,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403520314
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 57
+                },
+                "details": "57 keys ",
+                "item": {
+                    "id": 2600394574,
+                    "original_id": 2461737884,
+                    "defindex": 30136,
+                    "level": 95,
+                    "quality": 5,
+                    "inventory": 2147483682,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1113587712,
+                            "float_value": 56
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "medic",
+                    "slot": "misc",
+                    "particle": 56,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1400282039
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 23
+                },
+                "details": "23 keys ",
+                "item": {
+                    "id": 2611754631,
+                    "original_id": 1361321881,
+                    "defindex": 51,
+                    "level": 35,
+                    "quality": 5,
+                    "inventory": 2147485504,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1105723392,
+                            "float_value": 29
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "pyro",
+                    "slot": "misc",
+                    "particle": 29,
+                    "craft_class": "",
+                    "craft_material_type": "hat"
+                },
+                "created": 1400983497
+            },
+            {
+                "item": {
+                    "id": 2708282751,
+                    "original_id": 2013551534,
+                    "defindex": 863,
+                    "level": 1,
+                    "quality": 1,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 6,
+                    "attributes": [
+                        {
+                            "defindex": 144,
+                            "value": 1077936128,
+                            "float_value": 3
+                        },
+                        {
+                            "defindex": 551,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 2029,
+                            "value": 1065353216,
+                            "float_value": 1
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 24
+                },
+                "buyout": 1,
+                "details": "24 keys ",
+                "meta": {
+                    "class": "heavy",
+                    "slot": "secondary",
+                    "craft_material_type": "weapon"
+                },
+                "bump": 1403709330,
+                "created": 1403535164
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 60
+                },
+                "details": "60 keys ",
+                "item": {
+                    "id": 2679533152,
+                    "original_id": 2216008996,
+                    "defindex": 30122,
+                    "level": 84,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1114898432,
+                            "float_value": 61
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "heavy",
+                    "slot": "misc",
+                    "particle": 61,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1402868773
+            },
+            {
+                "item": {
+                    "id": 2712712096,
+                    "original_id": 2649627434,
+                    "defindex": 318,
+                    "level": 50,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1091567616,
+                            "float_value": 9
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 35
+                },
+                "buyout": 1,
+                "details": "35 keys ",
+                "meta": {
+                    "class": "pyro",
+                    "slot": "misc",
+                    "particle": 9,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403647509
+            },
+            {
+                "item": {
+                    "id": 2615065991,
+                    "original_id": 2593782557,
+                    "defindex": 332,
+                    "level": 30,
+                    "quality": 6,
+                    "inventory": 2147484899,
+                    "quantity": 1,
+                    "origin": 11,
+                    "attributes": [
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 153,
+                            "value": 1065353216,
+                            "float_value": 1
+                        }
+                    ],
+                    "flag_cannot_trade": true
+                },
+                "currencies": {
+                    "keys": 4
+                },
+                "buyout": 1,
+                "details": "Already Wrapped ! ",
+                "meta": {
+                    "class": "multi",
+                    "gift_wrapped": true
+                },
+                "bump": 1403709330,
+                "created": 1402946165
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 37
+                },
+                "details": "37 keys ",
+                "item": {
+                    "id": 2611094695,
+                    "original_id": 1876662235,
+                    "defindex": 30029,
+                    "level": 64,
+                    "quality": 5,
+                    "inventory": 2147485407,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1113849856,
+                            "float_value": 57
+                        },
+                        {
+                            "defindex": 142,
+                            "value": 1246442696,
+                            "float_value": 3329330
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1246442696,
+                            "float_value": 3329330
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "demoman",
+                    "slot": "misc",
+                    "particle": 57,
+                    "paint": 3329330,
+                    "craft_class": "",
+                    "craft_material_type": "hat"
+                },
+                "created": 1400983527
+            },
+            {
+                "item": {
+                    "id": 2692294196,
+                    "original_id": 523292736,
+                    "defindex": 337,
+                    "level": 88,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1099956224,
+                            "float_value": 18
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 50
+                },
+                "buyout": 1,
+                "details": "50 keys ( Misc ) ",
+                "meta": {
+                    "class": "spy",
+                    "slot": "misc",
+                    "particle": 18,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403214974
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 2
+                },
+                "details": "2 keys ",
+                "item": {
+                    "id": 2670378460,
+                    "original_id": 2520645674,
+                    "defindex": 215,
+                    "level": 10,
+                    "quality": 11,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 214,
+                            "value": 0,
+                            "float_value": 0
+                        },
+                        {
+                            "defindex": 178,
+                            "value": 1051931443,
+                            "float_value": 0.34999999403954
+                        },
+                        {
+                            "defindex": 72,
+                            "value": 1061158912,
+                            "float_value": 0.75
+                        },
+                        {
+                            "defindex": 1,
+                            "value": 1063675494,
+                            "float_value": 0.89999997615814
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "pyro",
+                    "slot": "primary",
+                    "craft_class": "weapon",
+                    "craft_material_type": "weapon"
+                },
+                "created": 1402656010
+            },
+            {
+                "item": {
+                    "id": 2609015278,
+                    "original_id": 2226149607,
+                    "defindex": 570,
+                    "level": 13,
+                    "quality": 6,
+                    "inventory": 2147485429,
+                    "quantity": 1,
+                    "origin": 0,
+                    "attributes": [
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "metal": 5
+                },
+                "buyout": 1,
+                "details": "5 ref ",
+                "meta": {
+                    "class": "pyro",
+                    "slot": "misc",
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403526151
+            },
+            {
+                "item": {
+                    "id": 2700100117,
+                    "original_id": 2290839492,
+                    "defindex": 30139,
+                    "level": 38,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1113587712,
+                            "float_value": 56
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 25
+                },
+                "buyout": 1,
+                "details": "25 keys ",
+                "meta": {
+                    "class": "pyro",
+                    "slot": "misc",
+                    "particle": 56,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403434293
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 7
+                },
+                "details": "white bills ",
+                "item": {
+                    "id": 2611054614,
+                    "original_id": 43741072,
+                    "defindex": 126,
+                    "level": 10,
+                    "quality": 6,
+                    "inventory": 2147485273,
+                    "quantity": 1,
+                    "origin": 0,
+                    "attributes": [
+                        {
+                            "defindex": 142,
+                            "value": 1265034982,
+                            "float_value": 15132390
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1265034982,
+                            "float_value": 15132390
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 195,
+                            "value": 1065353216,
+                            "float_value": 1
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "multi",
+                    "slot": "misc",
+                    "paint": 15132390,
+                    "craft_material_type": "hat"
+                },
+                "created": 1402237802
+            },
+            {
+                "item": {
+                    "id": 2714704289,
+                    "original_id": 1595164463,
+                    "defindex": 465,
+                    "level": 89,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "custom_name": "THE LICH KING",
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1106247680,
+                            "float_value": 30
+                        },
+                        {
+                            "defindex": 142,
+                            "value": 1235263648,
+                            "float_value": 1315860
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1235263648,
+                            "float_value": 1315860
+                        },
+                        {
+                            "defindex": 500,
+                            "value": "THE LICH KING"
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 33
+                },
+                "buyout": 1,
+                "details": "33 keys ( black ) ",
+                "meta": {
+                    "class": "demoman",
+                    "slot": "misc",
+                    "particle": 30,
+                    "paint": 1315860,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403705090
+            },
+            {
+                "item": {
+                    "id": 2705449768,
+                    "original_id": 938430046,
+                    "defindex": 158,
+                    "level": 28,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1088421888,
+                            "float_value": 7
+                        },
+                        {
+                            "defindex": 142,
+                            "value": 1264107224,
+                            "float_value": 14204632
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1264107224,
+                            "float_value": 14204632
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 23
+                },
+                "buyout": 1,
+                "details": "23 keys ",
+                "meta": {
+                    "class": "sniper",
+                    "slot": "misc",
+                    "particle": 7,
+                    "paint": 14204632,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403520305
+            },
+            {
+                "item": {
+                    "id": 2708501206,
+                    "original_id": 2661954910,
+                    "defindex": 254,
+                    "level": 6,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1098907648,
+                            "float_value": 16
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 20
+                },
+                "buyout": 1,
+                "details": "20 keys ",
+                "meta": {
+                    "class": "heavy",
+                    "slot": "misc",
+                    "particle": 16,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403539890
+            },
+            {
+                "item": {
+                    "id": 2505548961,
+                    "original_id": 454854675,
+                    "defindex": 394,
+                    "level": 45,
+                    "quality": 5,
+                    "inventory": 2147485416,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1093664768,
+                            "float_value": 11
+                        },
+                        {
+                            "defindex": 142,
+                            "value": 1265087803,
+                            "float_value": 15185211
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1265087803,
+                            "float_value": 15185211
+                        },
+                        {
+                            "defindex": 519,
+                            "value": 1090519040,
+                            "float_value": 8
+                        },
+                        {
+                            "defindex": 520,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 32
+                },
+                "buyout": 1,
+                "details": "32 keys ",
+                "meta": {
+                    "class": "pyro",
+                    "slot": "misc",
+                    "particle": 11,
+                    "paint": 15185211,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403523267
+            },
+            {
+                "item": {
+                    "id": 2615065958,
+                    "original_id": 1372557461,
+                    "defindex": 1005,
+                    "level": 10,
+                    "quality": 11,
+                    "inventory": 2147484913,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 189,
+                            "value": 1093664768,
+                            "float_value": 11
+                        },
+                        {
+                            "defindex": 214,
+                            "value": 0,
+                            "float_value": 0
+                        },
+                        {
+                            "defindex": 37,
+                            "value": 1056964608,
+                            "float_value": 0.5
+                        },
+                        {
+                            "defindex": 328,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 551,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 2029,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 280,
+                            "value": 1100480512,
+                            "float_value": 19
+                        }
+                    ]
+                },
+                "currencies": {
+                    "metal": 4,
+                    "keys": 8
+                },
+                "buyout": 1,
+                "details": "8 keys + 4 ref",
+                "meta": {
+                    "class": "sniper",
+                    "slot": "primary",
+                    "craft_class": "",
+                    "craft_material_type": "weapon"
+                },
+                "bump": 1403709330,
+                "created": 1403270703
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 220
+                },
+                "details": "220 keys ",
+                "item": {
+                    "id": 2660596547,
+                    "original_id": 359876425,
+                    "defindex": 151,
+                    "level": 41,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 3,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1095761920,
+                            "float_value": 13
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 519,
+                            "value": 1076048691,
+                            "float_value": 2.5499999523163
+                        },
+                        {
+                            "defindex": 520,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 415,
+                            "value": 1073741824,
+                            "float_value": 2
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "pyro",
+                    "slot": "misc",
+                    "particle": 13,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1402243630
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 20
+                },
+                "details": "20 keys ",
+                "item": {
+                    "id": 2608742532,
+                    "original_id": 1851889630,
+                    "defindex": 526,
+                    "level": 5,
+                    "quality": 11,
+                    "inventory": 2147484923,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 214,
+                            "value": 2,
+                            "float_value": 2.8025969286496e-45
+                        },
+                        {
+                            "defindex": 308,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 297,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 304,
+                            "value": 1066611507,
+                            "float_value": 1.1499999761581
+                        },
+                        {
+                            "defindex": 305,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 144,
+                            "value": 1073741824,
+                            "float_value": 2
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "sniper",
+                    "slot": "primary",
+                    "craft_class": "weapon",
+                    "craft_material_type": "weapon"
+                },
+                "created": 1402848476
+            },
+            {
+                "item": {
+                    "id": 2689774026,
+                    "original_id": 2630677855,
+                    "defindex": 817,
+                    "level": 80,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "style": 0,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1115160576,
+                            "float_value": 62
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 167
+                },
+                "buyout": 1,
+                "details": "All Class ",
+                "meta": {
+                    "class": "multi",
+                    "slot": "misc",
+                    "particle": 62,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403172141
+            },
+            {
+                "item": {
+                    "id": 2705013413,
+                    "original_id": 2659554706,
+                    "defindex": 194,
+                    "level": 7,
+                    "quality": 11,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 20,
+                    "style": 1,
+                    "attributes": [
+                        {
+                            "defindex": 214,
+                            "value": 0,
+                            "float_value": 0
+                        },
+                        {
+                            "defindex": 379,
+                            "value": 0,
+                            "float_value": 0
+                        },
+                        {
+                            "defindex": 380,
+                            "value": 1105199104,
+                            "float_value": 28
+                        },
+                        {
+                            "defindex": 542,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 2014,
+                            "value": 1077936128,
+                            "float_value": 3
+                        },
+                        {
+                            "defindex": 2022,
+                            "value": 1073741824,
+                            "float_value": 2
+                        },
+                        {
+                            "defindex": 2025,
+                            "value": 1073741824,
+                            "float_value": 2
+                        },
+                        {
+                            "defindex": 2027,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 551,
+                            "value": 1065353216,
+                            "float_value": 1
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 28
+                },
+                "buyout": 1,
+                "details": "Sheen - mandarrin  ( + dominations ) ",
+                "meta": {
+                    "class": "spy",
+                    "slot": "melee",
+                    "australium": true,
+                    "killstreak_tier": 2,
+                    "sheen": 3,
+                    "craft_material_type": "weapon"
+                },
+                "bump": 1403709330,
+                "created": 1403458372
+            },
+            {
+                "item": {
+                    "id": 2709321938,
+                    "original_id": 2331507939,
+                    "defindex": 248,
+                    "level": 81,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1114374144,
+                            "float_value": 59
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 42
+                },
+                "buyout": 1,
+                "details": "42  keys ",
+                "meta": {
+                    "class": "pyro",
+                    "slot": "misc",
+                    "particle": 59,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403556657
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 55
+                },
+                "details": "Clean Black max head ",
+                "item": {
+                    "id": 2613383487,
+                    "original_id": 822582433,
+                    "defindex": 162,
+                    "level": 1,
+                    "quality": 6,
+                    "inventory": 2147485286,
+                    "quantity": 1,
+                    "origin": 13,
+                    "attributes": [
+                        {
+                            "defindex": 142,
+                            "value": 1235263648,
+                            "float_value": 1315860
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1235263648,
+                            "float_value": 1315860
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "multi",
+                    "slot": "misc",
+                    "paint": 1315860
+                },
+                "created": 1402240699
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 27
+                },
+                "details": "+ 4 keys in parts ( dom +sniper +medics )",
+                "item": {
+                    "id": 2619638600,
+                    "original_id": 634301530,
+                    "defindex": 664,
+                    "level": 1,
+                    "quality": 11,
+                    "inventory": 2147484913,
+                    "quantity": 1,
+                    "origin": 8,
+                    "custom_name": "The Demon Hunter",
+                    "attributes": [
+                        {
+                            "defindex": 189,
+                            "value": 1093664768,
+                            "float_value": 11
+                        },
+                        {
+                            "defindex": 214,
+                            "value": 0,
+                            "float_value": 0
+                        },
+                        {
+                            "defindex": 379,
+                            "value": 0,
+                            "float_value": 0
+                        },
+                        {
+                            "defindex": 380,
+                            "value": 1093664768,
+                            "float_value": 11
+                        },
+                        {
+                            "defindex": 381,
+                            "value": 0,
+                            "float_value": 0
+                        },
+                        {
+                            "defindex": 382,
+                            "value": 1105199104,
+                            "float_value": 28
+                        },
+                        {
+                            "defindex": 383,
+                            "value": 0,
+                            "float_value": 0
+                        },
+                        {
+                            "defindex": 384,
+                            "value": 1099956224,
+                            "float_value": 18
+                        },
+                        {
+                            "defindex": 500,
+                            "value": "The Demon Hunter"
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "sniper",
+                    "slot": "primary",
+                    "craft_class": "",
+                    "craft_material_type": "weapon"
+                },
+                "created": 1402239462
+            },
+            {
+                "item": {
+                    "id": 2700100230,
+                    "original_id": 1776025749,
+                    "defindex": 30028,
+                    "level": 91,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "custom_name": "Killer's own tiny little tormentor",
+                    "custom_desc": "Eeez cute, eeez tiny, and eeez gonna get YOU",
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1114636288,
+                            "float_value": 60
+                        },
+                        {
+                            "defindex": 142,
+                            "value": 1265087803,
+                            "float_value": 15185211
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1265087803,
+                            "float_value": 15185211
+                        },
+                        {
+                            "defindex": 500,
+                            "value": "Killer's own tiny little tormentor"
+                        },
+                        {
+                            "defindex": 501,
+                            "value": "Eeez cute, eeez tiny, and eeez gonna get YOU"
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 415,
+                            "value": 1073741824,
+                            "float_value": 2
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 38
+                },
+                "buyout": 1,
+                "details": "38 keys ",
+                "meta": {
+                    "class": "pyro",
+                    "slot": "misc",
+                    "particle": 60,
+                    "paint": 15185211,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403434303
+            },
+            {
+                "item": {
+                    "id": 2714148102,
+                    "original_id": 509111153,
+                    "defindex": 363,
+                    "level": 17,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1108082688,
+                            "float_value": 35
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 13
+                },
+                "buyout": 1,
+                "details": "13 keys ",
+                "meta": {
+                    "class": "medic",
+                    "slot": "misc",
+                    "particle": 35,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403695523
+            },
+            {
+                "item": {
+                    "id": 2707694997,
+                    "original_id": 430342999,
+                    "defindex": 390,
+                    "level": 27,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 3,
+                    "style": 3,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1107558400,
+                            "float_value": 33
+                        },
+                        {
+                            "defindex": 142,
+                            "value": 1246442696,
+                            "float_value": 3329330
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1246442696,
+                            "float_value": 3329330
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 28
+                },
+                "buyout": 1,
+                "details": "28 keys ",
+                "meta": {
+                    "class": "demoman",
+                    "slot": "misc",
+                    "particle": 33,
+                    "paint": 3329330,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403521240
+            },
+            {
+                "item": {
+                    "id": 2707694979,
+                    "original_id": 233740113,
+                    "defindex": 314,
+                    "level": 43,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 3,
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1099431936,
+                            "float_value": 17
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 65
+                },
+                "buyout": 1,
+                "details": "65 keys ",
+                "meta": {
+                    "class": "sniper",
+                    "slot": "misc",
+                    "particle": 17,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403520949
+            },
+            {
+                "item": {
+                    "id": 2705494754,
+                    "original_id": 1590299887,
+                    "defindex": 779,
+                    "level": 99,
+                    "quality": 5,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "custom_desc": "viadinho",
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1107558400,
+                            "float_value": 33
+                        },
+                        {
+                            "defindex": 142,
+                            "value": 1235263648,
+                            "float_value": 1315860
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1235263648,
+                            "float_value": 1315860
+                        },
+                        {
+                            "defindex": 501,
+                            "value": "viadinho"
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 31
+                },
+                "buyout": 1,
+                "details": "31 keys ( black ) ",
+                "meta": {
+                    "class": "sniper",
+                    "slot": "misc",
+                    "particle": 33,
+                    "paint": 1315860,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403521223
+            },
+            {
+                "item": {
+                    "id": 2673467200,
+                    "original_id": 139820158,
+                    "defindex": 126,
+                    "level": 10,
+                    "quality": 6,
+                    "inventory": 2147485235,
+                    "quantity": 1,
+                    "origin": 0,
+                    "attributes": [
+                        {
+                            "defindex": 142,
+                            "value": 1265034982,
+                            "float_value": 15132390
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1265034982,
+                            "float_value": 15132390
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 195,
+                            "value": 1065353216,
+                            "float_value": 1
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 7
+                },
+                "buyout": 1,
+                "details": "white ",
+                "meta": {
+                    "class": "multi",
+                    "slot": "misc",
+                    "paint": 15132390,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403264348
+            },
+            {
+                "item": {
+                    "id": 2708399982,
+                    "original_id": 1251041867,
+                    "defindex": 921,
+                    "level": 57,
+                    "quality": 13,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 8,
+                    "attributes": [
+                        {
+                            "defindex": 142,
+                            "value": 1263498038,
+                            "float_value": 13595446
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1095761920,
+                            "float_value": 13
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1263498038,
+                            "float_value": 13595446
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "metal": 5
+                },
+                "buyout": 1,
+                "details": "( + orange paint ) ",
+                "meta": {
+                    "class": "multi",
+                    "slot": "misc",
+                    "paint": 13595446,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403537568
+            },
+            {
+                "item": {
+                    "id": 2695371368,
+                    "original_id": 2695371368,
+                    "defindex": 1096,
+                    "level": 100,
+                    "quality": 6,
+                    "inventory": 2147485155,
+                    "quantity": 1,
+                    "origin": 0,
+                    "attributes": [
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 3
+                },
+                "buyout": 1,
+                "details": "lvl 100 ",
+                "meta": {
+                    "class": "multi",
+                    "slot": "misc",
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403552348
+            },
+            {
+                "bump": 1403709330,
+                "buyout": 1,
+                "currencies": {
+                    "keys": 137
+                },
+                "details": "137 keys \/ 7 buds + 10  keys ",
+                "item": {
+                    "id": 2463013525,
+                    "original_id": 744938447,
+                    "defindex": 612,
+                    "level": 10,
+                    "quality": 5,
+                    "inventory": 2147485478,
+                    "quantity": 1,
+                    "origin": 8,
+                    "custom_name": "Remillia's Treasure!",
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1095761920,
+                            "float_value": 13
+                        },
+                        {
+                            "defindex": 185,
+                            "value": 1392774551,
+                            "float_value": 567163682816
+                        },
+                        {
+                            "defindex": 186,
+                            "value": 104940474,
+                            "float_value": 3.6349023173154e-35,
+                            "account_info": {
+                                "steamid": 76561198065206202,
+                                "personaname": "Ms.Izayoi (1\/25buds)"
+                            }
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 500,
+                            "value": "Remillia's Treasure!"
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "meta": {
+                    "class": "pyro",
+                    "slot": "misc",
+                    "particle": 13,
+                    "craft_class": "hat",
+                    "craft_material_type": "hat"
+                },
+                "created": 1399742583
+            },
+            {
+                "item": {
+                    "id": 2665405624,
+                    "original_id": 384691860,
+                    "defindex": 108,
+                    "level": 55,
+                    "quality": 5,
+                    "inventory": 2147485485,
+                    "quantity": 1,
+                    "origin": 8,
+                    "equipped": [
+                        {
+                            "class": 8,
+                            "slot": 7
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "defindex": 134,
+                            "value": 1099956224,
+                            "float_value": 18
+                        },
+                        {
+                            "defindex": 142,
+                            "value": 1265087803,
+                            "float_value": 15185211
+                        },
+                        {
+                            "defindex": 189,
+                            "value": 1084227584,
+                            "float_value": 5
+                        },
+                        {
+                            "defindex": 261,
+                            "value": 1265087803,
+                            "float_value": 15185211
+                        },
+                        {
+                            "defindex": 519,
+                            "value": 1088841318,
+                            "float_value": 7.1999998092651
+                        },
+                        {
+                            "defindex": 520,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 26
+                },
+                "buyout": 1,
+                "details": "26 keys ",
+                "meta": {
+                    "class": "spy",
+                    "slot": "misc",
+                    "particle": 18,
+                    "paint": 15185211,
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403523514
+            },
+            {
+                "item": {
+                    "id": 2630266707,
+                    "original_id": 452022093,
+                    "defindex": 264,
+                    "level": 5,
+                    "quality": 11,
+                    "inventory": 2147485070,
+                    "quantity": 1,
+                    "origin": 13,
+                    "custom_name": "The Rainbow executioner",
+                    "custom_desc": "This gun is made in rainbow factory. It was hard to get, but now it's your hands",
+                    "attributes": [
+                        {
+                            "defindex": 214,
+                            "value": 0,
+                            "float_value": 0
+                        },
+                        {
+                            "defindex": 379,
+                            "value": 0,
+                            "float_value": 0
+                        },
+                        {
+                            "defindex": 380,
+                            "value": 1107558400,
+                            "float_value": 33
+                        },
+                        {
+                            "defindex": 381,
+                            "value": 0,
+                            "float_value": 0
+                        },
+                        {
+                            "defindex": 382,
+                            "value": 1100480512,
+                            "float_value": 19
+                        },
+                        {
+                            "defindex": 2014,
+                            "value": 1088421888,
+                            "float_value": 7
+                        },
+                        {
+                            "defindex": 2025,
+                            "value": 1073741824,
+                            "float_value": 2
+                        },
+                        {
+                            "defindex": 500,
+                            "value": "The Rainbow executioner"
+                        },
+                        {
+                            "defindex": 501,
+                            "value": "This gun is made in rainbow factory. It was hard to get, but now it's your hands"
+                        },
+                        {
+                            "defindex": 195,
+                            "value": 1065353216,
+                            "float_value": 1
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 15
+                },
+                "buyout": 1,
+                "details": "Sheen : Hotrod \/ + 5 keys in parts ( crits +bulidings ) ",
+                "meta": {
+                    "class": "multi",
+                    "slot": "melee",
+                    "killstreak_tier": 2,
+                    "sheen": 7
+                },
+                "bump": 1403709330,
+                "created": 1403458517
+            },
+            {
+                "item": {
+                    "id": 2709656916,
+                    "original_id": 45938208,
+                    "defindex": 126,
+                    "level": 10,
+                    "quality": 6,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 0,
+                    "attributes": [
+                        {
+                            "defindex": 292,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 388,
+                            "value": 1115684864,
+                            "float_value": 64
+                        },
+                        {
+                            "defindex": 195,
+                            "value": 1065353216,
+                            "float_value": 1
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 6
+                },
+                "buyout": 1,
+                "details": "6 keys ",
+                "meta": {
+                    "class": "multi",
+                    "slot": "misc",
+                    "craft_material_type": "hat"
+                },
+                "bump": 1403709330,
+                "created": 1403607968
+            },
+            {
+                "item": {
+                    "id": 2712354058,
+                    "original_id": 2249902681,
+                    "defindex": 207,
+                    "level": 8,
+                    "quality": 11,
+                    "inventory": 3221225475,
+                    "quantity": 1,
+                    "origin": 20,
+                    "custom_name": "A Golden Opportunity",
+                    "custom_desc": "One small step for man, one giant leap for... Oh wait. Where'd your legs go?",
+                    "style": 1,
+                    "attributes": [
+                        {
+                            "defindex": 214,
+                            "value": 0,
+                            "float_value": 0
+                        },
+                        {
+                            "defindex": 542,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 2014,
+                            "value": 1073741824,
+                            "float_value": 2
+                        },
+                        {
+                            "defindex": 2022,
+                            "value": 1073741824,
+                            "float_value": 2
+                        },
+                        {
+                            "defindex": 2025,
+                            "value": 1073741824,
+                            "float_value": 2
+                        },
+                        {
+                            "defindex": 2027,
+                            "value": 1065353216,
+                            "float_value": 1
+                        },
+                        {
+                            "defindex": 500,
+                            "value": "A Golden Opportunity"
+                        },
+                        {
+                            "defindex": 501,
+                            "value": "One small step for man, one giant leap for... Oh wait. Where'd your legs go?"
+                        }
+                    ]
+                },
+                "currencies": {
+                    "keys": 28
+                },
+                "buyout": 1,
+                "details": "Sheen - Deadly Dadffodil ",
+                "meta": {
+                    "class": "demoman",
+                    "slot": "secondary",
+                    "australium": true,
+                    "killstreak_tier": 2,
+                    "sheen": 2,
+                    "craft_material_type": "weapon"
+                },
+                "bump": 1403709330,
+                "created": 1403636740
+            }
+        ],
+        "current_time": 1403709381
+    }
+}
