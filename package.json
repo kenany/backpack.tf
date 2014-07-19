@@ -1,6 +1,6 @@
 {
   "name": "backpack.tf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "backpack.tf API wrapper",
   "keywords": [
     "backpack.tf",
