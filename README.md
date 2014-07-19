@@ -1,5 +1,7 @@
 # backpack.tf
 
+[![Build Status](https://travis-ci.org/KenanY/backpack.tf.svg)](https://travis-ci.org/KenanY/backpack.tf)
+
 [backpack.tf](http://backpack.tf/) API wrapper.
 
 ## Example
