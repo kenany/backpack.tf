@@ -1,6 +1,7 @@
 # backpack.tf
 
 [![Build Status](https://travis-ci.org/KenanY/backpack.tf.svg)](https://travis-ci.org/KenanY/backpack.tf)
+[![Dependency Status](https://gemnasium.com/KenanY/backpack.tf.svg)](https://gemnasium.com/KenanY/backpack.tf)
 
 [backpack.tf](http://backpack.tf/) API wrapper.
 
