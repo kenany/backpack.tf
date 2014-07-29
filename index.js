@@ -7,7 +7,7 @@ var ENDPOINT = 'http://backpack.tf/api/';
 
 function backpacktf(apiKey, app) {
   if (!(this instanceof backpacktf)) {
-    return new backpacktf(apiKey);
+    return new backpacktf(apiKey, app);
   }
 
   if (!isString(apiKey)) {
