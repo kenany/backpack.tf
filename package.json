@@ -30,6 +30,6 @@
     "lodash.isfunction": "^2.4.1",
     "lodash.isplainobject": "^2.4.1",
     "nock": "^0.31.3",
-    "tape": "^2.13.2"
+    "tape": "^3.0.3"
   }
 }
