@@ -61,9 +61,10 @@ Creates a backpacktf instance `b` from _String_ `apiKey`. _Number_ `app` is the
 AppID of the game you want to be querying prices for (defaults to `440`, Team
 Fortress 2).
 
-### `b.getPrices(callback)`
+### `b.getPrices([options={}], callback)`
 
-Queries backpack.tf's price information for all priced items.
+Queries backpack.tf's price information for all priced items. _Object_ `options`
+can be used to set parameters like `raw`.
 
 The callback is called by jsonist with up to 3 arguments:
 

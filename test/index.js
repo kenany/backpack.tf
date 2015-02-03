@@ -28,10 +28,13 @@ test('throws when api key is not a string', function(t) {
 });
 
 test('getPrices', function(t) {
-  t.plan(4);
+  t.plan(7);
 
   api.get('/api/IGetPrices/v4?key=blah&appid=440')
     .reply(200, require('./fixtures/prices.json'));
+
+  api.get('/api/IGetPrices/v4?raw=2&key=blah&appid=440')
+    .reply(200, require('./fixtures/prices_raw.json'));
 
   var b = new backpacktf('blah');
 
@@ -41,6 +44,12 @@ test('getPrices', function(t) {
     t.error(error);
     t.ok(isPlainObject(data));
     t.deepEqual(data, require('./fixtures/prices.json'));
+  });
+
+  b.getPrices({raw: 2}, function(error, data) {
+    t.error(error);
+    t.ok(isPlainObject(data));
+    t.deepEqual(data, require('./fixtures/prices_raw.json'));
   });
 });
 
