@@ -1,6 +1,7 @@
 var jsonist = require('jsonist');
 var isArray = require('lodash.isarray');
 var isString = require('lodash.isstring');
+var isFunction = require('lodash.isfunction');
 var querystring = require('querystring');
 
 var ENDPOINT = 'http://backpack.tf/api/';
@@ -18,13 +19,19 @@ function backpacktf(apiKey, app) {
   this.app = app || 440;
 }
 
-backpacktf.prototype.getPrices = function getPrices(callback) {
-  var opts = {
-    key: this.apiKey,
-    appid: this.app
-  };
+backpacktf.prototype.getPrices = function getPrices(options, callback) {
+  if (isFunction(options)) {
+    callback = options;
+    options = {
+      key: this.apiKey,
+      appid: this.app
+    };
+  } else {
+    options.key = this.apiKey;
+    options.appid = this.app;
+  }
 
-  opts = querystring.stringify(opts);
+  var opts = querystring.stringify(options);
 
   jsonist.get(ENDPOINT + 'IGetPrices/v4?' + opts, callback);
 };
