@@ -15,7 +15,7 @@ test('throws when given no api key', function(t) {
   t.plan(1);
 
   t.throws(function() {
-    backpacktf()
+    backpacktf();
   }, new TypeError('Expected `apiKey` to be a String'));
 });
 
@@ -23,7 +23,7 @@ test('throws when api key is not a string', function(t) {
   t.plan(1);
 
   t.throws(function() {
-    backpacktf(440)
+    backpacktf(440);
   }, new TypeError('Expected `apiKey` to be a String'));
 });
 
@@ -50,6 +50,29 @@ test('getPrices', function(t) {
     t.error(error);
     t.ok(isPlainObject(data));
     t.deepEqual(data, require('./fixtures/prices_raw.json'));
+  });
+});
+
+test('getPriceHistory', function(t) {
+  t.plan(4);
+
+  api.get("/api/IGetPriceHistory/v1?key=blah&appid=440&item=Dalokohs%20Bar&quality=Strange&tradable=1&craftable=1&priceindex=0")
+    .reply(200, require('./fixtures/price_history.json'));
+
+  var b = new backpacktf('blah');
+
+  // At least specify an item and a quality
+  var options = {
+    item: "Dalokohs Bar",
+    quality: "Strange"
+  };
+
+  t.ok(isFunction(b.getPriceHistory));
+
+  b.getPriceHistory(options, function(error, data) {
+    t.error(error);
+    t.ok(isPlainObject(data));
+    t.deepEqual(data, require('./fixtures/price_history.json'));
   });
 });
 
@@ -84,6 +107,23 @@ test('getSpecialItems', function(t) {
     t.error(error);
     t.ok(isPlainObject(data));
     t.deepEqual(data, require('./fixtures/items.json'));
+  });
+});
+
+test('getMarketPrices', function(t) {
+  t.plan(4);
+
+  api.get('/api/IGetMarketPrices/v1?key=blah&appid=440')
+    .reply(200, require('./fixtures/market_prices.json'));
+
+  var b = new backpacktf('blah');
+
+  t.ok(isFunction(b.getMarketPrices));
+
+  b.getMarketPrices(function(error, data) {
+    t.error(error);
+    t.ok(isPlainObject(data));
+    t.deepEqual(data, require('./fixtures/market_prices.json'));
   });
 });
 

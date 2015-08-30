@@ -19,13 +19,14 @@
     "test": "test"
   },
   "scripts": {
-    "test": "tape test/index.js"
+    "test": "tape test/*.js"
   },
   "dependencies": {
     "jsonist": "^0.1.1",
     "lodash.isarray": "^2.4.1",
     "lodash.isfunction": "^2.4.1",
-    "lodash.isstring": "^2.4.1"
+    "lodash.isstring": "^2.4.1",
+    "lodash.assign": "^2.4.1"
   },
   "devDependencies": {
     "lodash.isplainobject": "^2.4.1",

@@ -2,7 +2,10 @@ var jsonist = require('jsonist');
 var isArray = require('lodash.isarray');
 var isString = require('lodash.isstring');
 var isFunction = require('lodash.isfunction');
+var assign = require('lodash.assign');
 var querystring = require('querystring');
+
+var helpers = require('./helpers.js');
 
 var ENDPOINT = 'http://backpack.tf/api/';
 
@@ -18,6 +21,8 @@ function backpacktf(apiKey, app) {
   this.apiKey = apiKey;
   this.app = app || 440;
 }
+
+/* Community Pricing APIs */
 
 backpacktf.prototype.getPrices = function getPrices(options, callback) {
   if (isFunction(options)) {
@@ -36,11 +41,38 @@ backpacktf.prototype.getPrices = function getPrices(options, callback) {
   jsonist.get(ENDPOINT + 'IGetPrices/v4?' + opts, callback);
 };
 
+backpacktf.prototype.getPriceHistory = function getPriceHistory(options, callback) {
+  //var opts = {
+  //  key: this.apiKey,
+  //  appid: this.app,
+  //};
+  var opts = helpers.setDefaultOptions(this.apiKey, this.app);
+
+  opts = assign(opts, helpers.getPriceHistoryOptions(options));
+  opts = querystring.stringify(opts);
+
+  jsonist.get(ENDPOINT + 'IGetPriceHistory/v1?' + opts, callback);
+};
+
 backpacktf.prototype.getCurrencies = function getCurrencies(callback) {
-  var opts = {
-    key: this.apiKey,
-    appid: this.app
-  };
+  //var opts = {
+  //  key: this.apiKey,
+  //  appid: this.app
+  //};
+  var opts = helpers.setDefaultOptions(this.apiKey, this.app);
+
+  opts = assign(opts, helpers.getPriceHistoryOptions(options));
+  opts = querystring.stringify(opts);
+
+  jsonist.get(ENDPOINT + 'IGetPriceHistory/v1?' + opts, callback);
+};
+
+backpacktf.prototype.getCurrencies = function getCurrencies(callback) {
+  //var opts = {
+  //  key: this.apiKey,
+  //  appid: this.app
+  //};
+  var opts = helpers.setDefaultOptions(this.apiKey, this.app);
 
   opts = querystring.stringify(opts);
 
@@ -48,15 +80,32 @@ backpacktf.prototype.getCurrencies = function getCurrencies(callback) {
 };
 
 backpacktf.prototype.getSpecialItems = function getSpecialItems(callback) {
-  var opts = {
-    key: this.apiKey,
-    appid: this.app
-  };
+  //var opts = {
+  //  key: this.apiKey,
+  //  appid: this.app
+  //};
+  var opts = helpers.setDefaultOptions(this.apiKey, this.app);
 
   opts = querystring.stringify(opts);
 
   jsonist.get(ENDPOINT + 'IGetSpecialItems/v1?' + opts, callback);
 };
+
+/* Developer-friendly APIs for the Steam Community Market */
+
+backpacktf.prototype.getMarketPrices = function getMarketPrices(callback) {
+  //var opts = {
+  //  key: this.apiKey,
+  //  appid: this.app
+  //};
+  var opts = helpers.setDefaultOptions(this.apiKey, this.app);
+
+  opts = querystring.stringify(opts);
+
+  jsonist.get(ENDPOINT + 'IGetMarketPrices/v1?' + opts, callback);
+};
+
+/* APIs for other services & data provided by backpack.tf */
 
 backpacktf.prototype.getUsers = function getUsers(users, callback) {
   var opts = {
@@ -81,6 +130,7 @@ backpacktf.prototype.getUserListings = function getUserListings(user, callback) 
 
   opts = querystring.stringify(opts);
 
+  // TODO: update the interface for version 2
   jsonist.get(ENDPOINT + 'IGetUserListings/v1?' + opts, callback);
 };
 
