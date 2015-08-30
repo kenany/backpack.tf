@@ -1,0 +1,55 @@
+{
+    "response": {
+        "success": 1,
+        "history": [
+            {
+                "value": 2,
+                "value_high": 2,
+                "currency": "metal",
+                "timestamp": 1427128248
+            },
+            {
+                "value": 1,
+                "value_high": 1.66,
+                "currency": "metal",
+                "timestamp": 1427643170
+            },
+            {
+                "value": 1.33,
+                "value_high": 1.33,
+                "currency": "metal",
+                "timestamp": 1428124283
+            },
+            {
+                "value": 1,
+                "value_high": 1,
+                "currency": "metal",
+                "timestamp": 1429461083
+            },
+            {
+                "value": 0.66,
+                "value_high": 1,
+                "currency": "metal",
+                "timestamp": 1432990793
+            },
+            {
+                "value": 0.66,
+                "value_high": 0.66,
+                "currency": "metal",
+                "timestamp": 1433486432
+            },
+            {
+                "value": 0.44,
+                "value_high": 0.44,
+                "currency": "metal",
+                "timestamp": 1435251514
+            },
+            {
+                "value": 0.33,
+                "value_high": 0.33,
+                "currency": "metal",
+                "timestamp": 1440199453
+            }
+        ]
+    }
+}

@@ -1,4 +1,5 @@
 var jsonist = require('jsonist');
+var assign = require('lodash.assign');
 var isArray = require('lodash.isarray');
 var isString = require('lodash.isstring');
 var isFunction = require('lodash.isfunction');
@@ -15,20 +16,18 @@ function backpacktf(apiKey, app) {
     throw new TypeError('Expected `apiKey` to be a String');
   }
 
-  this.apiKey = apiKey;
-  this.app = app || 440;
+  this.basicOptions = {
+    key: apiKey,
+    appid: app || 440
+  };
 }
 
 backpacktf.prototype.getPrices = function getPrices(options, callback) {
   if (isFunction(options)) {
     callback = options;
-    options = {
-      key: this.apiKey,
-      appid: this.app
-    };
+    options = this.basicOptions;
   } else {
-    options.key = this.apiKey;
-    options.appid = this.app;
+    options = assign({}, this.basicOptions, options);
   }
 
   var opts = querystring.stringify(options);
@@ -36,11 +35,26 @@ backpacktf.prototype.getPrices = function getPrices(options, callback) {
   jsonist.get(ENDPOINT + 'IGetPrices/v4?' + opts, callback);
 };
 
+backpacktf.prototype.getPriceHistory = function getPriceHistory(options, callback) {
+  if (typeof options.item === 'undefined') {
+    callback(new TypeError('Expected a value for item: an item name as a ' +
+                       'string or an item definition index as an integer'));
+    return;
+  }
+
+  var opts = assign({}, this.basicOptions, {
+    quality: '',
+    tradable: '1',
+    craftable: '1',
+    priceindex: '0'
+  }, options);
+  opts = querystring.stringify(opts);
+
+  jsonist.get(ENDPOINT + 'IGetPriceHistory/v1?' + opts, callback);
+};
+
 backpacktf.prototype.getCurrencies = function getCurrencies(callback) {
-  var opts = {
-    key: this.apiKey,
-    appid: this.app
-  };
+  var opts = this.basicOptions;
 
   opts = querystring.stringify(opts);
 
@@ -48,14 +62,19 @@ backpacktf.prototype.getCurrencies = function getCurrencies(callback) {
 };
 
 backpacktf.prototype.getSpecialItems = function getSpecialItems(callback) {
-  var opts = {
-    key: this.apiKey,
-    appid: this.app
-  };
+  var opts = this.basicOptions;
 
   opts = querystring.stringify(opts);
 
   jsonist.get(ENDPOINT + 'IGetSpecialItems/v1?' + opts, callback);
+};
+
+backpacktf.prototype.getMarketPrices = function getMarketPrices(callback) {
+  var opts = this.basicOptions;
+
+  opts = querystring.stringify(opts);
+
+  jsonist.get(ENDPOINT + 'IGetMarketPrices/v1?' + opts, callback);
 };
 
 backpacktf.prototype.getUsers = function getUsers(users, callback) {
@@ -73,15 +92,11 @@ backpacktf.prototype.getUsers = function getUsers(users, callback) {
 };
 
 backpacktf.prototype.getUserListings = function getUserListings(user, callback) {
-  var opts = {
-    key: this.apiKey,
-    appid: this.app,
-    steamid: user
-  };
+  var opts = assign({}, this.basicOptions, { steamid: user });
 
   opts = querystring.stringify(opts);
 
-  jsonist.get(ENDPOINT + 'IGetUserListings/v1?' + opts, callback);
+  jsonist.get(ENDPOINT + 'IGetUserListings/v2?' + opts, callback);
 };
 
 module.exports = backpacktf;

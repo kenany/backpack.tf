@@ -23,13 +23,14 @@
   },
   "dependencies": {
     "jsonist": "^0.1.1",
+    "lodash.assign": "^3.2.0",
     "lodash.isarray": "^2.4.1",
     "lodash.isfunction": "^2.4.1",
     "lodash.isstring": "^2.4.1"
   },
   "devDependencies": {
     "lodash.isplainobject": "^2.4.1",
-    "nock": "^0.51.0",
+    "nock": "^2.10.0",
     "tape": "^3.0.3"
   }
 }

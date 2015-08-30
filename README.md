@@ -73,6 +73,33 @@ The callback is called by jsonist with up to 3 arguments:
 > deserialised object obtained from the server and the third argument will be
 > the response object itself if you need to fetch headers or other metadata.
 
+### `b.getPriceHistory([options={}], callback)`
+
+Queries backpack.tf's price history for a given item.
+
+_Object_ `options` should be used to specify at least two keys:
+
+1. **`item`**, where the value is either:
+  * item definition index as an integer OR
+  * item name as a string *(recommended)*
+1. **`quality`**, the item quality. See [TF2 Schema](https://wiki.teamfortress.com/wiki/WebAPI/GetSchema#Result_Data) for more info.
+  * item quality as its definition index OR
+  * item quality as a string *(recommended)*. Possible values are:
+    * `Normal`
+    * `Genuine`
+    * `Vintage`
+    * `Unusual`
+    * `Unique`
+    * `Community`
+    * `Valve`
+    * `Self-Made`
+    * `Strange`
+    * `Haunted`
+    * `Collector's`
+  * Returns an empty array if there's nothing found.
+
+As described above in `b.getPrices`, `callback` is called by jsonist.
+
 ### `b.getCurrencies(callback)`
 
 Queries backpack.tf's internal currency data for a given game.
@@ -80,6 +107,10 @@ Queries backpack.tf's internal currency data for a given game.
 ### `b.getSpecialItems(callback)`
 
 Queries backpack.tf's internal item placeholders for a given game.
+
+### `b.getMarketPrices(callback)`
+
+Queries for Steam Community Market price information.
 
 ### `b.getUsers(users, callback)`
 
