@@ -1,16 +1,6 @@
 // Helper methods for setting function options
 
 /**
- * Set API key and appID
- */
-var setDefaultOptions = function (apiKey, app) {
-  return {
-    key: apiKey,
-    appid: app
-  };
-};
-
-/**
  * Helper method for setting input options for IGetPriceHistory interface
  *
  * `item` - The item - this can be a name or a definition index.
@@ -32,6 +22,5 @@ var getPriceHistoryOptions = function(options) {
 };
 
 module.exports = {
-  setDefaultOptions: setDefaultOptions,
   getPriceHistoryOptions: getPriceHistoryOptions
 };

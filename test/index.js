@@ -33,7 +33,7 @@ test('getPrices', function(t) {
   api.get('/api/IGetPrices/v4?key=blah&appid=440')
     .reply(200, require('./fixtures/prices.json'));
 
-  api.get('/api/IGetPrices/v4?raw=2&key=blah&appid=440')
+  api.get('/api/IGetPrices/v4?key=blah&appid=440&raw=2')
     .reply(200, require('./fixtures/prices_raw.json'));
 
   var b = new backpacktf('blah');

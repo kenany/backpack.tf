@@ -18,8 +18,10 @@ function backpacktf(apiKey, app) {
     throw new TypeError('Expected `apiKey` to be a String');
   }
 
-  this.apiKey = apiKey;
-  this.app = app || 440;
+  this.basicOptions = {
+    key: apiKey,
+    appid: app || 440,
+  };
 }
 
 /* Community Pricing APIs */
@@ -27,13 +29,9 @@ function backpacktf(apiKey, app) {
 backpacktf.prototype.getPrices = function getPrices(options, callback) {
   if (isFunction(options)) {
     callback = options;
-    options = {
-      key: this.apiKey,
-      appid: this.app
-    };
+    options = this.basicOptions;
   } else {
-    options.key = this.apiKey;
-    options.appid = this.app;
+    options = assign(this.basicOptions, options);
   }
 
   var opts = querystring.stringify(options);
@@ -42,11 +40,7 @@ backpacktf.prototype.getPrices = function getPrices(options, callback) {
 };
 
 backpacktf.prototype.getPriceHistory = function getPriceHistory(options, callback) {
-  //var opts = {
-  //  key: this.apiKey,
-  //  appid: this.app,
-  //};
-  var opts = helpers.setDefaultOptions(this.apiKey, this.app);
+  var opts = this.basicOptions;
 
   opts = assign(opts, helpers.getPriceHistoryOptions(options));
   opts = querystring.stringify(opts);
@@ -55,24 +49,15 @@ backpacktf.prototype.getPriceHistory = function getPriceHistory(options, callbac
 };
 
 backpacktf.prototype.getCurrencies = function getCurrencies(callback) {
-  //var opts = {
-  //  key: this.apiKey,
-  //  appid: this.app
-  //};
-  var opts = helpers.setDefaultOptions(this.apiKey, this.app);
+  var opts = this.basicOptions;
 
-  opts = assign(opts, helpers.getPriceHistoryOptions(options));
   opts = querystring.stringify(opts);
 
   jsonist.get(ENDPOINT + 'IGetPriceHistory/v1?' + opts, callback);
 };
 
 backpacktf.prototype.getCurrencies = function getCurrencies(callback) {
-  //var opts = {
-  //  key: this.apiKey,
-  //  appid: this.app
-  //};
-  var opts = helpers.setDefaultOptions(this.apiKey, this.app);
+  var opts = this.basicOptions;
 
   opts = querystring.stringify(opts);
 
@@ -80,11 +65,7 @@ backpacktf.prototype.getCurrencies = function getCurrencies(callback) {
 };
 
 backpacktf.prototype.getSpecialItems = function getSpecialItems(callback) {
-  //var opts = {
-  //  key: this.apiKey,
-  //  appid: this.app
-  //};
-  var opts = helpers.setDefaultOptions(this.apiKey, this.app);
+  var opts = this.basicOptions;
 
   opts = querystring.stringify(opts);
 
@@ -94,11 +75,7 @@ backpacktf.prototype.getSpecialItems = function getSpecialItems(callback) {
 /* Developer-friendly APIs for the Steam Community Market */
 
 backpacktf.prototype.getMarketPrices = function getMarketPrices(callback) {
-  //var opts = {
-  //  key: this.apiKey,
-  //  appid: this.app
-  //};
-  var opts = helpers.setDefaultOptions(this.apiKey, this.app);
+  var opts = this.basicOptions;
 
   opts = querystring.stringify(opts);
 
@@ -122,11 +99,7 @@ backpacktf.prototype.getUsers = function getUsers(users, callback) {
 };
 
 backpacktf.prototype.getUserListings = function getUserListings(user, callback) {
-  var opts = {
-    key: this.apiKey,
-    appid: this.app,
-    steamid: user
-  };
+  var opts = assign(this.basicOptions, { steamid: user });
 
   opts = querystring.stringify(opts);
 
