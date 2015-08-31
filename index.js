@@ -2,10 +2,9 @@ var jsonist = require('jsonist');
 var isArray = require('lodash.isarray');
 var isString = require('lodash.isstring');
 var isFunction = require('lodash.isfunction');
-var assign = require('lodash.assign');
 var querystring = require('querystring');
 
-var helpers = require('./helpers.js');
+var helpers = require('./helpers');
 
 var ENDPOINT = 'http://backpack.tf/api/';
 
@@ -20,7 +19,7 @@ function backpacktf(apiKey, app) {
 
   this.basicOptions = {
     key: apiKey,
-    appid: app || 440,
+    appid: app || 440
   };
 }
 
@@ -31,7 +30,7 @@ backpacktf.prototype.getPrices = function getPrices(options, callback) {
     callback = options;
     options = this.basicOptions;
   } else {
-    options = assign(this.basicOptions, options);
+    options = helpers.cloneAndAssign(this.basicOptions, options);
   }
 
   var opts = querystring.stringify(options);
@@ -42,7 +41,7 @@ backpacktf.prototype.getPrices = function getPrices(options, callback) {
 backpacktf.prototype.getPriceHistory = function getPriceHistory(options, callback) {
   var opts = this.basicOptions;
 
-  opts = assign(opts, helpers.getPriceHistoryOptions(options));
+  opts = helpers.cloneAndAssign(opts, helpers.getPriceHistoryOptions(options));
   opts = querystring.stringify(opts);
 
   jsonist.get(ENDPOINT + 'IGetPriceHistory/v1?' + opts, callback);
@@ -99,7 +98,7 @@ backpacktf.prototype.getUsers = function getUsers(users, callback) {
 };
 
 backpacktf.prototype.getUserListings = function getUserListings(user, callback) {
-  var opts = assign(this.basicOptions, { steamid: user });
+  var opts = helpers.cloneAndAssign(this.basicOptions, { steamid: user });
 
   opts = querystring.stringify(opts);
 

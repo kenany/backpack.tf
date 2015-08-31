@@ -56,15 +56,15 @@ test('getPrices', function(t) {
 test('getPriceHistory', function(t) {
   t.plan(4);
 
-  api.get("/api/IGetPriceHistory/v1?key=blah&appid=440&item=Dalokohs%20Bar&quality=Strange&tradable=1&craftable=1&priceindex=0")
+  api.get('/api/IGetPriceHistory/v1?key=blah&appid=440&item=Dalokohs%20Bar&quality=Strange&tradable=1&craftable=1&priceindex=0')
     .reply(200, require('./fixtures/price_history.json'));
 
   var b = new backpacktf('blah');
 
   // At least specify an item and a quality
   var options = {
-    item: "Dalokohs Bar",
-    quality: "Strange"
+    item: 'Dalokohs Bar',
+    quality: 'Strange'
   };
 
   t.ok(isFunction(b.getPriceHistory));
@@ -74,6 +74,7 @@ test('getPriceHistory', function(t) {
     t.ok(isPlainObject(data));
     t.deepEqual(data, require('./fixtures/price_history.json'));
   });
+
 });
 
 test('getCurrencies', function(t) {
