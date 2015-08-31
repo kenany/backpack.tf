@@ -103,8 +103,7 @@ backpacktf.prototype.getUserListings = function getUserListings(user, callback) 
 
   opts = querystring.stringify(opts);
 
-  // TODO: update the interface for version 2
-  jsonist.get(ENDPOINT + 'IGetUserListings/v1?' + opts, callback);
+  jsonist.get(ENDPOINT + 'IGetUserListings/v2?' + opts, callback);
 };
 
 module.exports = backpacktf;

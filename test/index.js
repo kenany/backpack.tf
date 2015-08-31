@@ -156,7 +156,7 @@ test('getUsers', function(t) {
 test('getUserListings', function(t) {
   t.plan(4);
 
-  api.get('/api/IGetUserListings/v1?key=blah&appid=440&steamid=76561198049406480')
+  api.get('/api/IGetUserListings/v2?key=blah&appid=440&steamid=76561198049406480')
     .reply(200, require('./fixtures/listings.json'));
 
   var b = new backpacktf('blah');
